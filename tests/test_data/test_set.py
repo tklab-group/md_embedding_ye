@@ -1,0 +1,18 @@
+set1 = set()
+set1.add(1)
+set1.add(2)
+set1.add(3)
+set1.add(1)
+set1.add(1)
+set2 = set()
+set2.add(111)
+set2.add(1112)
+set3 = set1.union(set2)
+print(set1)
+print(set2)
+print(set3)
+list1 = [1, 2, 3]
+target = 4
+list2 = list1 + list(target)
+print('list2', list2)
+print(len(set1))
