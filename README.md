@@ -18,6 +18,9 @@
  - pklファイルを生成流れとして、Mongodbからデータを読み込み、そのままpklファイルになる
  - pklファイルを生成Scriptは main/to_pkl.py
 
+# Python環境
+ - Python 3.8.3
+
 # 環境
  - torch==1.10.1
  - pymongo==4.0.1
