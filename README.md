@@ -2,6 +2,9 @@
  - main/normal_multi.py →具体的なパラメータの配置はコードの変数名を見てください
  - tsubame_script/single_project_run.py
 
+# 実験環境
+ - Zenzeroの共通Jupyter　→ http://192.168.202.90:8888/login?token=8f8624bb1fda5f845da271be2a83a151c0203a0afa326a07
+
 # Tsubameで扱うScript
  - tsubame_script/**_normal_##.sh
  - tsubame_script/**_subword_##.sh
@@ -27,6 +30,13 @@
  - numpy==1.19.5
  - matplotlib==3.3.4
  - pickle5==0.0.11
+
+# cat /proc/driver/nvidia/version
+```
+NVRM version: NVIDIA UNIX x86_64 Kernel Module  460.39  Thu Jan 21 21:54:06 UTC 2021
+GCC version:  gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04)
+```
+
 
 # Zenzero GPU環境ためのtorchバージョン
 ```
