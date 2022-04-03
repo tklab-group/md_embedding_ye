@@ -1,6 +1,23 @@
 # 実験を実行
- - main/normal_multi.py →具体的なパラメータの配置はコードの変数名を見てください
+ - main/normal_multi.py
  - tsubame_script/single_project_run.py
+
+# 本プロジェクトの共通の変数名（パラメータ）の説明
+## seed
+ - Random seed
+## version
+ - 予測データのVersion
+## mode
+ - mode = Mode.NORMAL CBOW法
+ - mode = Mode.SUB_WORD　SUBWORD法
+## max_epoch
+ - max eopch
+## dim
+ - dimension
+## batch_size
+ - batch size
+## lr
+ - learn rate
 
 # 実験環境
  - Zenzeroの共通Jupyter　→ http://192.168.202.90:8888/login?token=8f8624bb1fda5f845da271be2a83a151c0203a0afa326a07
